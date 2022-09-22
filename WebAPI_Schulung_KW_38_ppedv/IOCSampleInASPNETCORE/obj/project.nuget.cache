@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwW+7BDrCL6GJmVqiE7vl5RTvsFA04yl5FRwvMI9FMkHUqeggHWSxJLR0k6nrtlG21TMx3mbEafYP0Z73mGySA==",
+  "dgSpecHash": "cDIvvTRqraq2kt5eRUXdi7qkHHuEdEGr3YEwJI9Eol6yONk4fXlAPl3SB20UQ3HN5duT0HNlNItig0MUhT8lbw==",
   "success": true,
-  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\IOCSampleInASPNETCORE.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\IOCSampleInASPNETCORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

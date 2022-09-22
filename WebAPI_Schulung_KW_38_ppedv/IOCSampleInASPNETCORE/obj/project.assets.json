@@ -145,11 +145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\IOCSampleInASPNETCORE.csproj",
+      "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\IOCSampleInASPNETCORE.csproj",
       "projectName": "IOCSampleInASPNETCORE",
-      "projectPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\IOCSampleInASPNETCORE.csproj",
+      "projectPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\IOCSampleInASPNETCORE.csproj",
       "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-      "outputPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\obj\\",
+      "outputPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\IOCSampleInASPNETCORE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

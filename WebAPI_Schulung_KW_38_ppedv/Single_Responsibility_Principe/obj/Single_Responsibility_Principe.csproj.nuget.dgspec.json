@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj": {}
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj": {}
   },
   "projects": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj": {
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj",
+        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj",
         "projectName": "Single_Responsibility_Principe",
-        "projectPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj",
+        "projectPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\Single_Responsibility_Principe.csproj",
         "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-        "outputPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\obj\\",
+        "outputPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\Single_Responsibility_Principe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

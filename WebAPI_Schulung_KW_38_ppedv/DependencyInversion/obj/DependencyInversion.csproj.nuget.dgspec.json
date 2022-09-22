@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj": {}
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj": {}
   },
   "projects": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj": {
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj",
+        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj",
         "projectName": "DependencyInversion",
-        "projectPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj",
+        "projectPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj",
         "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-        "outputPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\obj\\",
+        "outputPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

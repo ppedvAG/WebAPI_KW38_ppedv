@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj": {}
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj": {}
   },
   "projects": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj": {
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj",
+        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj",
         "projectName": "DIScopeVsTransientVsSingletonSample",
-        "projectPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj",
+        "projectPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj",
         "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-        "outputPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\obj\\",
+        "outputPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

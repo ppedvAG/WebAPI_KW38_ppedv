@@ -15,5 +15,7 @@ namespace WebAPIKurs.Data
         }
 
         public DbSet<WebAPIKurs.Models.Car> Car { get; set; } = default!;
+
+        public DbSet<WebAPIKurs.Models.Contact> Contact { get; set; }
     }
 }

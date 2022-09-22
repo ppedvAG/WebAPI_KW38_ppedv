@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KMnb8HWxlKeakfxmVRMEH86PTPMcMEdxk8Z3Ps91FUmrdP9WRRUxno+7q0x0v8GDWHFMHgiTEvgbaSkYO/5h2w==",
+  "dgSpecHash": "oCq0yecH0E0W9dIkYYDHUI4JyaX0itX75a1fX/DCtIk8h0D07DdbCUiGd/71Dnf5P+IcaoU39yFAkeOGYEBD3A==",
   "success": true,
-  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DIScopeVsTransientVsSingletonSample\\DIScopeVsTransientVsSingletonSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kw4\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\kw4\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

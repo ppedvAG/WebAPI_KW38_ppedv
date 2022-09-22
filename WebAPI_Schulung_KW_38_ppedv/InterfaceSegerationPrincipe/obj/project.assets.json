@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\InterfaceSegerationPrincipe\\InterfaceSegerationPrincipe.csproj",
+      "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\InterfaceSegerationPrincipe\\InterfaceSegerationPrincipe.csproj",
       "projectName": "InterfaceSegerationPrincipe",
-      "projectPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\InterfaceSegerationPrincipe\\InterfaceSegerationPrincipe.csproj",
+      "projectPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\InterfaceSegerationPrincipe\\InterfaceSegerationPrincipe.csproj",
       "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-      "outputPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\InterfaceSegerationPrincipe\\obj\\",
+      "outputPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\InterfaceSegerationPrincipe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

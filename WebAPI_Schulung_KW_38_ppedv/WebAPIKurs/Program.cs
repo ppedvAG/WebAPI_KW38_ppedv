@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using WebAPIKurs.Data;
 using System.Reflection;
+using WebApiContrib.Core.Formatter.Csv;
+using WebAPIKurs.Formatters;
 
 namespace WebAPIKurs
 {
@@ -31,7 +33,17 @@ namespace WebAPIKurs
 
 
             // Add services to the container.
-            builder.Services.AddControllers();
+            builder.Services.AddControllers(options=>
+            {
+                options.OutputFormatters.Insert(0, new VCardOutputFormatter());
+                options.InputFormatters.Insert(0, new VCardInputFormatter());
+            })
+                .AddXmlSerializerFormatters() //Jetzt kann unsere WebAPI das XML-Format
+                .AddCsvSerializerFormatters(); //CSV Formatter -> Wo liegt hier das Problem das wir keine CSV angeboten. 
+
+
+
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             

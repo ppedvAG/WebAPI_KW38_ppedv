@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj": {}
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj": {}
   },
   "projects": {
-    "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj": {
+    "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj",
+        "projectUniqueName": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj",
         "projectName": "WebAPIKurs",
-        "projectPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj",
+        "projectPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\WebAPIKurs.csproj",
         "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
-        "outputPath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\obj\\",
+        "outputPath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\WebAPIKurs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,6 +66,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "WebApiContrib.Core.Formatter.Csv": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

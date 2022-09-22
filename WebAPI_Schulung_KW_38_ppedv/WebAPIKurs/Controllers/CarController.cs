@@ -33,8 +33,18 @@ namespace WebAPIKurs.Controllers
         [ProducesResponseType(typeof(Car), StatusCodes.Status406NotAcceptable)]
         [ProducesResponseType(typeof(Car), StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(typeof(Car), StatusCodes.Status404NotFound)]
-
+        [ProducesResponseType(typeof(Car), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<Car>>> GetCar()
+        {
+            return await _context.Car.ToListAsync();
+        }
+
+        [HttpGet("als IList")]
+        [ProducesResponseType(typeof(Car), StatusCodes.Status406NotAcceptable)]
+        [ProducesResponseType(typeof(Car), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(Car), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Car), StatusCodes.Status200OK)]
+        public async Task<ActionResult<IList<Car>>> GetCar1()
         {
             return await _context.Car.ToListAsync();
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8AZAgFQsJZmLwnyJB9PYTE1oR3YsjYbmefl58CWHD5js7gcx/MOYf1icK4sAMo1We98i3jNOIB/EKC10ip4kMA==",
+  "dgSpecHash": "1MqVh30krZtzup5vBbcsJw/3knS7WgdYfNjPkokY/4ALGi0GPPBdMfM7RF6pzTnnwMV8Z+4n1nvfSyV9Yvgx/g==",
   "success": true,
-  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_KW38_ppedv\\WebAPI_Schulung_KW_38_ppedv\\DependencyInversion\\DependencyInversion.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
