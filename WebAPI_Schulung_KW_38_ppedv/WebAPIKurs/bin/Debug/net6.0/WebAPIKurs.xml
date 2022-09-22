@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIKurs</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPIKurs.Controllers.CarController.GetCar">
+            <summary>
+            Car-Liste
+            </summary>
+            <returns>IEnumerable von Autos </returns>
+        </member>
+        <member name="M:WebAPIKurs.Controllers.CarController.GetCar(System.Int32)">
+            <summary>
+            Test
+            </summary>
+            <param name="id">Id von Car</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
