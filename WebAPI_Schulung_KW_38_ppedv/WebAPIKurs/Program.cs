@@ -5,6 +5,8 @@ using WebAPIKurs.Data;
 using System.Reflection;
 using WebApiContrib.Core.Formatter.Csv;
 using WebAPIKurs.Formatters;
+using WebAPIKurs.Configurations;
+using Serilog;
 
 namespace WebAPIKurs
 {
@@ -14,8 +16,8 @@ namespace WebAPIKurs
         {
             //In .NET 6 ist folgendes NEU!!!!
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-            
 
+            #region Formatter einbinden
             //builder.WebHost -> IWebHostBuilder -> ASP.NET Core 2.0 / 2.1 
 
             //builder.Host  -> IHostBuilder -> ASP.NET Core 3.1 / .NET 5.0 
@@ -40,14 +42,37 @@ namespace WebAPIKurs
             })
                 .AddXmlSerializerFormatters() //Jetzt kann unsere WebAPI das XML-Format
                 .AddCsvSerializerFormatters(); //CSV Formatter -> Wo liegt hier das Problem das wir keine CSV angeboten. 
-
+            #endregion
 
 
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            
 
+            #region Configurationen Einlesen
+
+            //1.) Hinzufügen einer weiteren Konfigurationsquelle
+            builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
+            {
+                //config.AddUserSecrets<>
+                //config.AddUserSecrets
+                config.AddJsonFile("GameSettings.json", optional: true, true);
+            });
+
+            //2.) Mappen der GameSettings-Klasse mit den GameSettings-Konfigurationen
+            //Wichtig zu wissen GameSettings bzw IOption-Pattern liegt im IOC Container
+            builder.Services.Configure<GameSettings>(builder.Configuration.GetSection("GameSettings"));
+
+            #endregion
+
+            #region Logging mit Serilog
+
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(builder.Configuration)
+                .CreateLogger();
+
+            builder.Host.UseSerilog();
+            #endregion
 
 
 
@@ -108,12 +133,12 @@ namespace WebAPIKurs
                 IDateTimeService dateTimeServiceB = scope.ServiceProvider.GetService<IDateTimeService>();
             }
 
-                // Configure the HTTP request pipeline.
-                if (app.Environment.IsDevelopment())
-                {
-                    app.UseSwagger();
-                    app.UseSwaggerUI();
-                }
+            //Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
 
             app.UseHttpsRedirection();
 
@@ -122,7 +147,24 @@ namespace WebAPIKurs
 
             app.MapControllers();
 
-            app.Run();
+
+
+
+            try
+            {
+                Log.Information("Starting WebApp");
+                app.Run();
+                return;
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Host terminated unexpectedly");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
+
         }
     }
 }

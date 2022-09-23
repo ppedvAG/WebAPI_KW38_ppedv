@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sbXspm5PgGhhjYD2qP3vccoa665C9+8jdPZiicsJhtc=",
+  "Source": "ResponseCachingWebAPI",
+  "BasePath": "_content/ResponseCachingWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

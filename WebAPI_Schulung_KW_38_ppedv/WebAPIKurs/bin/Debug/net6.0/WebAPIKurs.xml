@@ -17,5 +17,11 @@
             <param name="id">Id von Car</param>
             <returns></returns>
         </member>
+        <member name="M:WebAPIKurs.Controllers.ConfigurationController.GetSettings">
+            <summary>
+            Ausgabe von Konfigurationen via IConfiguration
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

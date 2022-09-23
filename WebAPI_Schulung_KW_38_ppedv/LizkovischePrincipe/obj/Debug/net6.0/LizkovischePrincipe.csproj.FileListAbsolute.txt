@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\bin\Debug\net6.0\LizkovischePrincipe.exe
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\bin\Debug\net6.0\LizkovischePrincipe.deps.json
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\bin\Debug\net6.0\LizkovischePrincipe.runtimeconfig.json
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\bin\Debug\net6.0\LizkovischePrincipe.dll
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\bin\Debug\net6.0\LizkovischePrincipe.pdb
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.AssemblyInfo.cs
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.dll
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\refint\LizkovischePrincipe.dll
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.pdb
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\LizkovischePrincipe.genruntimeconfig.cache
+C:\Aktueller Kurs\WebAPI_KW38_ppedv\WebAPI_Schulung_KW_38_ppedv\LizkovischePrincipe\obj\Debug\net6.0\ref\LizkovischePrincipe.dll
