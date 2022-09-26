@@ -15,7 +15,7 @@ namespace MovieApp.ServiceAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            
             //Hier legen wir den MovieDbContext in den IOC Container
             builder.Services.AddDbContext<MovieDbContext>(options =>
             {
